@@ -1,19 +1,38 @@
 
+/*top of page alignment*/
+#header {width: 960px;
+      float: left;
+}
+
 /*Name header*/
 #name {background-color: #4aaaa5; 
     color: white; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 20%;
     text-align: center;
+    
 }
 
-/*content border*/
+/*content area*/
 .main {background-color: rgb(221, 142, 23);
     width: 960px;
+    float: left;
+}
 
-        
-            
+/*buttons*/
+.button {background-color: #ffffff;
+        color: black;
+        width: 90px;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 2px;
+        text-align: center;
+        float: right;
+        font-size: 16px
+}
+
+.button:hover {background-color: #4aaaa5;
+            color: #ffffff;
 
 
 }
-
