@@ -1,1 +1,10 @@
-#name {background-color: #4aaaa5; }
+
+/*Name header*/
+#name {background-color: #4aaaa5; 
+    color: white; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 20%;
+    text-align: center;
+}
+
+
