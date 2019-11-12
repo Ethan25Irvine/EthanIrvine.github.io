@@ -2,6 +2,7 @@
 /*top of page alignment*/
 #header {width: 960px;
       float: left;
+      padding: 0px;
 }
 
 /*Name header*/
@@ -17,6 +18,7 @@
 .main {background-color: rgb(221, 142, 23);
     width: 960px;
     float: left;
+    margin-top: 20px
 }
 
 /*buttons*/
@@ -26,6 +28,7 @@
         border-style: solid;
         border-color: #4aaaa5;
         border-width: 1px;
+        border-radius: 8px;
         text-align: center;
         float: right;
         font-size: 16px
