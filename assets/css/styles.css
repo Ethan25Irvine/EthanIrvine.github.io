@@ -1,41 +1,47 @@
 
 /*top of page alignment*/
-#header {width: 960px;
-      float: left;
+#header {max-width: 960px;
+      margin: auto;
+      float: relative;
       padding: 0px;
+      
 }
 
 /*Name header*/
 #name {background-color: #4aaaa5; 
     color: white; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 20%;
+    width: 150px;
     text-align: center;
     
 }
 
 /*content area*/
-.main {background-color: rgb(221, 142, 23);
-    width: 960px;
-    float: left;
-    margin-top: 20px
+.main {background-color: rgb(175, 175, 175);
+    max-width: 960px;
+    margin: auto;
+   text-align: center;
+   float: left;
+   
 }
 
 /*buttons*/
-.button {background-color: #ffffff;
+.buttons {background-color: #ffffff;
         color: black;
         width: 90px;
         border-style: solid;
         border-color: #4aaaa5;
-        border-width: 1px;
+        border-width: 3px;
         border-radius: 8px;
         text-align: center;
+        font-size: 16px;
         float: right;
-        font-size: 16px
+        
 }
 
-.button:hover {background-color: #4aaaa5;
-            color: #ffffff;
+/* .buttons:hover {background-color: #4aaaa5;
+         color: #ffffff
+} */
 
 
-}
+
