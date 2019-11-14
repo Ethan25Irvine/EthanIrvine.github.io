@@ -1,26 +1,35 @@
 html{max-height: 100%}
 
-#body {display: flex;
+.body {display: flex;
       flex-direction: column;
       height: 100%;
 }
 
-#background {
+.background {
       background-image: url("light_honeycomb.png")
      /* background-color: black; */
 
 }
 
-#header {background-color: rgb(255, 255, 255);
+#header {background-color: #ffffff;
 max-width: 100%;
+border-bottom: 1px solid #666666;
+position: relative;
+top: -10px
 }
 
-#name {background-color: #4aaaa5;
+#name {
+display: table-cell;
+background-color: #4aaaa5;
 color: #ffffff;
 width: 200px;
-height: 80px;
+height: 80px; 
+/* margin: -10px 160px 0; */
 text-align: center;
-margin: 0 160px 0;
+vertical-align: middle;
+position: relative;
+left: 160px;
+
 }
 
 .buttons { position: relative;
@@ -36,7 +45,32 @@ margin: 0 160px 0;
       left: 160px;
       flex: 1 0 auto 0;
       padding: 0 0 0 0;
+      margin: 0 0 100px 0;
+      border: 2px solid #666666;
 }
+
+.headings {
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      color: #4aaaa5;
+      position: relative;
+      left: 20px;
+      top: 15px;
+
+    
+    }
+    
+
+#comingSoon {
+  color: #666666;
+  text-align: center;
+  vertical-align: middle;
+ padding: 0 0 300px 0;
+ position: relative;
+ top: 100px
+  
+}
+
+
 
 #bio { 
       font-size: 16px;
@@ -60,7 +94,7 @@ margin: 0 160px 0;
 
 .footer {
       position: sticky;
-      background-color: #777777;
+      background-color:#666666;
       flex-shrink: 0;
       padding: 40px;
       border-top: 8px solid #4aaaa5;
