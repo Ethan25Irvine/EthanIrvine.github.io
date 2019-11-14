@@ -1,3 +1,10 @@
+html{max-height: 100%}
+
+body {display: flex;
+      flex-direction: column;
+      height: 100vh;
+}
+
 #header {background-color: tan;
 max-width: 100%;
 }
@@ -16,11 +23,36 @@ margin: 0 160px 0;
 
 }
 
-.body {background-color: khaki;
+.content {background-color: khaki;
       max-width: 960px;
       max-height: 960px;
       position: relative;
-      left: 160px
-      
+      left: 160px;
+      flex: 1 0 auto 0;
+      padding: 20px
 }
 
+#bio { 
+      font-size: 16px;
+      max-width: 960px;
+      position: absolute;
+      left: 280px;
+    
+
+
+}
+
+#ethan {
+    max-width: 300px;
+    max-height: 300px;  
+    position: relative;
+    top: -100;
+  }
+
+
+.footer {
+      
+      background-color: #777777;
+      flex-shrink: 0;
+      padding: 20px;
+}
