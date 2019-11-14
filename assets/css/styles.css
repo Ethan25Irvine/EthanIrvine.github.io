@@ -1,11 +1,17 @@
 html{max-height: 100%}
 
-body {display: flex;
+#body {display: flex;
       flex-direction: column;
-      height: 100vh;
+      height: 100%;
 }
 
-#header {background-color: tan;
+#background {
+      background-image: url("light_honeycomb.png")
+     /* background-color: black; */
+
+}
+
+#header {background-color: rgb(255, 255, 255);
 max-width: 100%;
 }
 
@@ -23,20 +29,20 @@ margin: 0 160px 0;
 
 }
 
-.content {background-color: khaki;
+.content {background-color: rgb(255, 255, 255);
       max-width: 960px;
       max-height: 960px;
       position: relative;
       left: 160px;
       flex: 1 0 auto 0;
-      padding: 20px
+      padding: 0 0 0 0;
 }
 
 #bio { 
       font-size: 16px;
-      max-width: 960px;
+      max-width: 600px;
       position: absolute;
-      left: 280px;
+      left: 300px;
     
 
 
@@ -46,13 +52,18 @@ margin: 0 160px 0;
     max-width: 300px;
     max-height: 300px;  
     position: relative;
-    top: -100;
+    margin: 20px 0 60px 20px;
   }
+  
+  
 
 
 .footer {
-      
+      position: sticky;
       background-color: #777777;
       flex-shrink: 0;
-      padding: 20px;
+      padding: 40px;
+      border-top: 8px solid #4aaaa5;
+      
+      
 }
