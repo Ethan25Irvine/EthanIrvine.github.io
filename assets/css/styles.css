@@ -1,4 +1,26 @@
+#header {background-color: tan;
+max-width: 100%;
+}
 
+#name {background-color: #4aaaa5;
+color: #ffffff;
+width: 200px;
+height: 80px;
+text-align: center;
+margin: 0 160px 0;
+}
 
+.buttons { position: relative;
+        left: 950px;
+        top: -55px;
 
+}
+
+.body {background-color: khaki;
+      max-width: 960px;
+      max-height: 960px;
+      position: relative;
+      left: 160px
+      
+}
 
