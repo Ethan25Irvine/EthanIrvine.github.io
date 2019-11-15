@@ -1,16 +1,15 @@
-html{max-height: 100%}
+html, body {height: 100%}
 
-.body {display: flex;
-      flex-direction: column;
-      height: 100%;
+.body {
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-      color: #777777
+      color: #777777;
+   
 }
 
 .background {
-      background-image: url("light_honeycomb.png")
+      background-image: url("light_honeycomb.png");
      /* background-color: black; */
-
+      height: 100%;
 }
 
 #header {background-color: #ffffff;
@@ -52,7 +51,6 @@ font-family: 'Georgia', Times, 'Times New Roman', serif;
       max-height: 960px;
       position: relative;
       left: 160px;
-      flex: 1 0 auto 0;
       padding: 0 0 0 0;
       margin: 0 0 100px 0;
       border: 0.25px solid #666666;
@@ -136,11 +134,11 @@ form {
 
 
 .footer {
-      position: sticky;
       background-color:#666666;
-      flex-shrink: 0;
-      padding: 40px;
+      position: fixed;
+      bottom: 0;
       border-top: 8px solid #4aaaa5;
-      
+      height: 80px;
+      width: 100%;
       
 }
